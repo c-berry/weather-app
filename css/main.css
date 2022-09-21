@@ -1,0 +1,59 @@
+body {
+    background-color: deepskyblue
+}
+
+#map {
+    width: 98.5%;
+    height: 500px;
+    border: solid black;
+}
+
+#forecast {
+    width: 25%;
+    height: 150px;
+    border: solid black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    /*background-color: deepskyblue;*/
+}
+
+#weather-box {
+    width: 20%;
+    border: solid black 1px;
+    /*border-top: solid 3px lightgrey;*/
+    /*border-left: solid 2px deepskyblue;*/
+    /*border-right: solid 2px deepskyblue;*/
+    border-radius: 10%;
+    padding: 0em .6em .6em .6em;
+    margin: 1em .5em 1em .5em;
+    background-color: white;
+    transition: all .2s ease-in-out;
+}
+
+#weather-box:hover {
+    transform: scale(1.1);
+    z-index: +1;
+}
+
+hr {
+    margin: .2em 0 .2em 0;
+    width: 100%;
+}
+
+#location {
+    margin-left: .6em;
+    /*color: white;*/
+}
+
+button{
+    background-color: white;
+}
+
+#search-bar{
+    width: 50%;
+}
